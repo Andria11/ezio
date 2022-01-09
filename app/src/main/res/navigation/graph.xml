@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph"
+    app:startDestination="@id/liverpool">
+
+    <fragment
+        android:id="@+id/liverpool"
+        android:name="com.example.ezio.firstfragment"
+        tools:layout="@layout/fragment_first"
+        android:label="firstfragment" >
+        <action
+            android:id="@+id/action_liverpool_to_scouser"
+            app:destination="@id/scouser" />
+    </fragment>
+    <fragment
+        android:id="@+id/scouser"
+        android:name="com.example.ezio.secondfragment"
+        tools:layout="@layout/fragment_second"
+        android:label="secondfragment" >
+
+        <argument android:name="amount"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+    <fragment
+        android:id="@+id/gamebred"
+        android:name="com.example.ezio.thirdfragment"
+        tools:layout="@layout/fragment_third"
+        android:label="thirdfragment" />
+    <fragment
+        android:id="@+id/masvidal"
+        android:name="com.example.ezio.fourthfragment"
+        android:label="fourthfragment" />
+</navigation>

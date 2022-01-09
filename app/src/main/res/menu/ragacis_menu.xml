@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/liverpool"
+        android:icon="@drawable/ic_baseline_add_alarm_24"
+        android:title="alarm" />
+
+    <item
+        android:id="@+id/scouser"
+        android:icon="@drawable/ic_baseline_archive_24"
+        android:title="archive" />
+
+    <item
+        android:id="@+id/gamebred"
+        android:icon="@drawable/ic_baseline_brush_24"
+        android:title="brush" />
+    <item
+        android:id="@+id/masvidal"
+        android:icon="@drawable/ic_baseline_photo_library_24"
+        android:title="photo"/>
+
+</menu>
